@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   return res.json({
     port:process.env.PORT
   })
-  res.render('index', { title: 'Express' });
+  // res.render('index', { title: 'Expresss' });
 });
 
 module.exports = router;
